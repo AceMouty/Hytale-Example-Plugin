@@ -9,8 +9,10 @@ If you have installed Hytale in a custom location then by default the decompiled
 
 To fix this you can specify the your install location using `hytale` function in `build.gradle.kts` using `gameDir` and set the value to be where you have installed Hytale.
 
+Example for Windows
 ```kotlin
 hytale {
-  gameDir = "/path/to/your/installed/Hytale"
+  gameDir = "G:/games/Hytale"
 }
 ```
+Where `G:` is your drive where Hytale is installed
