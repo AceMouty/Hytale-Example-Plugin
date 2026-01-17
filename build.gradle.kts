@@ -62,7 +62,7 @@ tasks.named<ProcessResources>("processResources") {
 
 hytale {
     // gameDir - specify where Hytale is installed at
-    // example: gameDir = "/G/games/Hytale"
+    // example for windows: gameDir = "G:/games/Hytale"
 }
 
 tasks.withType<Jar> {
